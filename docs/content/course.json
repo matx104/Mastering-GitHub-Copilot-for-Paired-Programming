@@ -1,0 +1,77 @@
+{
+  "course": {
+    "title": "GitHub Copilot for AI Paired Programming",
+    "eyebrow": "QALAM presents · Microsoft's curriculum, digested",
+    "subtitle": "From first suggestion to coding agents, MCP, legacy upgrades and language migration.",
+    "source_name": "Microsoft (Mastering GitHub Copilot for Paired Programming)",
+    "source_url": "https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+    "fork_url": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming",
+    "credit_line": "Curriculum © Microsoft · MIT License · digested with credit, shared free.",
+    "after_title": "After the course",
+    "after_note": "The Copilot Adventures petal is the playground for everything learned here.",
+    "og_url": "https://matx104.github.io/Mastering-GitHub-Copilot-for-Paired-Programming/",
+    "og_image": "img/og.png"
+  },
+  "modules": [
+    {
+      "id": "m1", "num": 1, "title": "Beginner",
+      "blurb": "Unlock the AI pair programmer.",
+      "lessons": [
+        {"id": "01", "title": "Getting started with GitHub Copilot", "objective": "First contact with the AI assistant.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Getting-Started-with-GitHub-Copilot",
+         "keys": ["Copilot suggests; you decide — the pairing contract", "Install, accept, refine: the three-beat rhythm", "Write the comment, get the function; write the signature, get the body"]}
+      ]
+    },
+    {
+      "id": "m2", "num": 2, "title": "Intermediate",
+      "blurb": "Agentic work in every language, the CLI, the coding agent, MCP, and a mini game.",
+      "lessons": [
+        {"id": "02", "title": "Using Copilot with JavaScript", "objective": "Agentic mode on a JS project.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Using-GitHub-Copilot-with-JavaScript",
+         "keys": ["Agentic mode: Copilot plans edits across files, you review the diff", "Prompt with file context — open what matters", "Tests first is prompting strategy, not dogma"]},
+        {"id": "03", "title": "Using Copilot with Python", "objective": "Agentic mode on Python.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Using-GitHub-Copilot-with-Python",
+         "keys": ["Docstrings are prompts — write them like briefs", "Notebooks: Copilot in the data-science loop", "Ask for pandas, get pandas; specify the library"]},
+        {"id": "04", "title": "Using Copilot with C#", "objective": "Agentic mode on a minimal API.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Using-GitHub-Copilot-with-CSharp",
+         "keys": ["Prompting .NET: name the framework and version", "Minimal APIs scaffold fast — review the generated routes", "LINQ suggestions are where C# Copilot shines"]},
+        {"id": "05", "title": "Using GitHub Copilot CLI", "objective": "Copilot in the terminal.", "minutes": 30,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Using-GitHub-Copilot-CLI",
+         "keys": ["Copilot in the CLI: explain, suggest, and write shell you don't remember", "Natural language to git commands — the underused superpower", "Always read before you run; AI-generated rm is still rm"]},
+        {"id": "06", "title": "Using the Copilot coding agent", "objective": "Delegate tasks from plan to PR.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Using-GitHub-Copilot-Coding-Agent",
+         "keys": ["The coding agent: assign an issue, receive a PR", "Delegation needs specs — write issues like briefs", "Review the agent's code exactly like a junior's: kindly, thoroughly"]},
+        {"id": "07", "title": "Integrate MCP with GitHub Copilot", "objective": "MCP servers in VS Code.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Integrate-MCP-with-Copilot",
+         "keys": ["MCP gives Copilot tools: issues, PRs, docs, your own services", "The GitHub MCP server turns chat into project management", "Tool access is a security decision — scope it"]},
+        {"id": "08", "title": "Creating a mini game with Copilot", "objective": "Prompt-driven game building.", "minutes": 60,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Creating-Mini-Game-with-GitHub-Copilot",
+         "keys": ["Games make great Copilot exercises: rules are specs", "Iterate mechanics one prompt at a time", "Keep the game loop yours; let the agent fill the rooms"]}
+      ]
+    },
+    {
+      "id": "m3", "num": 3, "title": "Advanced",
+      "blurb": "Deep features, cloud deploys, brutal SQL, legacy upgrades, migrations, data science.",
+      "lessons": [
+        {"id": "09", "title": "Advanced Copilot features", "objective": "Inline chat, slash commands, agents.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Using-Advanced-GitHub-Copilot-Features",
+         "keys": ["Inline chat (Cmd-I): surgery without leaving the line", "/explain, /tests, /fix — slash commands as the pro vocabulary", "Context @(files) aims the model at the right room"]},
+        {"id": "10", "title": "Copilot for Azure — deploy to the cloud", "objective": "Cloud deployment conversations.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud",
+         "keys": ["Copilot for Azure: infra answers and deployments from chat", "Ask about your subscription before touching the portal", "The assistant reads docs so you don't guess at SKUs"]},
+        {"id": "11", "title": "Challenging Copilot with complex SQL", "objective": "When simple prompts stop working.", "minutes": 60,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Challenging-GitHub-Copilot-with-SQL",
+         "keys": ["Complex SQL: give schema, give intent, give example rows", "Break monstrous queries into CTE-shaped prompts", "The model writes the JOIN; you verify the semantics"]},
+        {"id": "12", "title": "Upgrading legacy projects", "objective": "Python modernization with Copilot.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Upgrading-Legacy-Projects",
+         "keys": ["Legacy upgrades: let Copilot map before it moves", "Tests are the safety net — write them first if absent", "Upgrade in reviewable slabs, not one heroic diff"]},
+        {"id": "13", "title": "Migrating to a new language", "objective": "Rewrite in another language.", "minutes": 60,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/Migrating-Languages",
+         "keys": ["Language migration: Copilot as the bilingual translator", "Idioms differ — demand idiomatic, not transliterated, code", "Parity tests prove the rewrite didn't change the behavior"]},
+        {"id": "14", "title": "Copilot for data science", "objective": "Notebooks and datasets.", "minutes": 45,
+         "href": "https://github.com/matx104/Mastering-GitHub-Copilot-for-Paired-Programming/tree/main/GitHub-Copilot-for-Data-Scientists",
+         "keys": ["Copilot in Jupyter: boilerplate dies, analysis survives", "Ask for the chart, then argue with the chart", "The model suggests correlations; you supply the causation caution"]}
+      ]
+    }
+  ]
+}
